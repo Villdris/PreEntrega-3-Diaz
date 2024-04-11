@@ -1,0 +1,22 @@
+/* Utilities */
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+@import "./utilities/funciones";
+
+
+/* base */
+@import "./base/general";
+
+
+/* layout */
+@import "./layout/header";
+@import "./layout/body";
+@import "./layout/main";
+@import "./layout/aside";
+@import "./layout/footer";
+
+
+/* components */
+@import "./components/navbar";
+@import "./components/tarjetas";

@@ -1,0 +1,38 @@
+/* Utilities */
+/* base */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+/* layout */
+header, .header_pages {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 500px;
+  background-image: url(../assets/imgheader.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  border-bottom: 5px solid #F7C226; }
+  header h1, .header_pages h1, .header_pages .h1_pages {
+    font-family: amaranth;
+    font-size: 6rem;
+    color: #412207;
+    text-align: center;
+    padding-top: 200px;
+    text-shadow: 0px 5px 50px #F7C226; }
+  header .logo, .header_pages .logo {
+    margin: 40px;
+    border-radius: 50%;
+    border: 5px solid #F7C226; }
+
+.header_pages {
+  height: 200px; }
+  .header_pages .logo {
+    margin: 10px; }
+  .header_pages .h1_pages {
+    font-size: 5rem;
+    padding-top: 50px; }
+
+/* components */

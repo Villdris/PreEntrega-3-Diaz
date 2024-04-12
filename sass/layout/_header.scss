@@ -1,36 +1,44 @@
 header {
-    display: flex;
-    justify-content: space-evenly;
+    @include flex (flex, center, center, 20px);
     width: 100%;
     height: 500px;
     background-image: url(../assets/imgheader.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
-    border-bottom: 5px solid $layoutColorCuatro;
-    h1 {
-        font-family: amaranth;
-        font-size: 6rem;
-        color: $fontColorUno;
-        text-align: center;
-        padding-top: 200px;
-        text-shadow: 0px 5px 50px $layoutColorCuatro;
-    }
         .logo{
-        margin: 40px;
-        border-radius: 50%;
-        border: 5px solid $layoutColorCuatro;
+            max-width: 400px;
+            margin-left: 30px;
+            border-radius: 50%;
+            border: 5px solid $layoutColorCuatro;
+        }
+        .header_div{
+            background: $layoutColorDos;
+            background: linear-gradient(180deg, rgba(105,172,69,0.9007935938047094) 0%, rgba(0,212,255,0.6542949943649334) 100%);
+            margin-right: 30px;
+                h1 {
+                    font-family: amaranth;
+                    font-size: 5rem;
+                    color: $fontColorUno;
+                }
+                .eslogan{
+                    font-family: "noto sans JP";
+                    font-size: 2rem;
+                    color: $fontColorUno;
+                }
         }
 }
 
 .header_pages{
     @extend header;
-    height: 200px;
+    justify-content: space-around;
+    height: 150px;
     .logo{
-        margin: 10px;
+        width: 125px ;
     }
-    .h1_pages{
-        @extend h1;
-        font-size: 5rem;
-        padding-top: 50px;
+    .header_div{
+        .h1_pages{
+            @extend h1;
+            font-size: 4rem;
+        }
     }
 }

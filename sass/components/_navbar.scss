@@ -1,0 +1,18 @@
+nav{
+    position: sticky;
+    top: 0;
+    ul{
+        background-color: $layoutColorCuatro;
+        height: 50px;
+        @include flex (flex, space-evenly, center, 20px);
+        li{
+            list-style-type: none;
+            a{
+                text-decoration: none;
+                font-family: "noto sans JP";
+                font-weight: 800;
+                color: $fontColorDos;
+            }
+        }
+    }
+}

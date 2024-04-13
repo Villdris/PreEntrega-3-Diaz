@@ -1,0 +1,72 @@
+.galeria_pequena{
+    @include flex (flex, center, center, 20px, wrap);
+    margin-bottom: 50px;
+    padding-top: 30px;
+    img{
+        min-width: 200px;
+        max-width: 325px;
+        border-radius: 50px;
+    }
+}
+.productos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 20px;
+    .caja{
+        background-color: $layoutColorTres;
+        border-radius: 25%;
+        box-shadow: 0 10px 30px black;
+        .productos_img{
+            border-radius: 25%;
+            width: 90%;
+        }
+        h3{
+            color: $fontColorUno;
+        }
+    }
+}
+
+.ingredientes{
+    @include flex(flex, center, center, 20px, wrap);
+    .ingredientes_h2{
+        font-size: 1.7rem;
+        color: $fontColorUno;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .ingredientes_caja{
+        background-color:  rgb(192, 170, 144);
+        border-radius: 25%;
+        .ingredientes_img{
+            width: 250px;
+            border-radius: 50%;
+        }
+        .ingredientes_ul{
+            list-style: none;
+            padding: 25px;
+        }
+    
+    }
+}
+
+.endulzante{
+    @include flex(flex, center, center, 20px, wrap);
+    .endulzante_h2{
+        font-size: 1.8rem;
+        color: $fontColorUno;
+        margin-top: 50px;
+        width: 100%;
+    }
+    .endulzante_caja{
+        background-color: $layoutColorCuatro;
+        border-radius: 25%;
+        .endulzante_img{
+            width: 200px;
+            border-radius: 50%;
+        }
+        .endulzante_ul{
+            list-style: none;
+            padding: 25px;
+        }
+    }
+}

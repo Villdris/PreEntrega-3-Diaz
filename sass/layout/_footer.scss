@@ -1,6 +1,16 @@
-footer{
+.footer{
+    @include flex (flex, center, center, 80px, nowrap);
     width: 100%;
     height: 200px;
     background-image: url(https://th.bing.com/th/id/OIG3.ZEYIukjksjjczsUAE_TX?pid=ImgGn);
     background-size: 100%;
-}
+    padding: 20px;
+        .li{
+            list-style-type: none;
+            min-width: 50px;
+            max-width: 100px;
+            .icon{
+                width: 100%;
+            }
+        }
+    }

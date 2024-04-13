@@ -4,7 +4,7 @@ nav{
     ul{
         background-color: $layoutColorCuatro;
         height: 50px;
-        @include flex (flex, space-evenly, center, 20px);
+        @include flex (flex, space-evenly, center, 20px, nowrap);
         li{
             list-style-type: none;
             a{

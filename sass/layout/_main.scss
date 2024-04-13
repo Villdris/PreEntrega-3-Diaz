@@ -19,7 +19,7 @@ section{
     height: 200px;
 }
 
-.imgseparadorados{
+.imgseparadora_dos{
     background-image: url(https://th.bing.com/th/id/OIG3.Rp7kHtxrSVPtbUQt24aT?pid=ImgGn);
     background-attachment: fixed;
     height: 200px;
@@ -32,21 +32,6 @@ section{
     background-color: rgb(192, 170, 144);
 }
 
-.galeria_pequena{
-    @include flex (flex, center, center, 20px);
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-    padding-top: 30px;
-    img{
-        min-width: 200px;
-        max-width: 325px;
-        border-radius: 50px;
-        -webkit-border-radius: 50px;
-        -moz-border-radius: 50px;
-        -ms-border-radius: 50px;
-        -o-border-radius: 50px;
-    }
-}
 
 .section_diferente_dos{
     @extend.section_diferente;

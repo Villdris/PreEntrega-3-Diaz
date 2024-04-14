@@ -1,0 +1,23 @@
+.contenedor_tarjetas{
+    @include flex(flex, center, center, 0, wrap);
+    width: 100%;
+    background-color: $layoutColorUno;
+    border-radius: 50%;
+    box-shadow: 0 30px 50px black;
+        .tarjeta{
+            @include flex(flex, center, center, 0, nowrap);
+            background-color: $layoutColorDos;
+            border-radius: 50%;
+            box-shadow: 0 30px 50px $layoutColorCuatro;
+            margin-bottom: 40px;
+            font-weight: 700;
+        }
+        .tarjeta_img{
+            border-radius: 20%;
+            width: 500px;
+        }
+        .tarjeta_h3{
+            font-size: 2rem;
+            margin-bottom: 10px;
+}
+}

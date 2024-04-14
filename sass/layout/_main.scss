@@ -20,9 +20,8 @@ section{
 }
 
 .imgseparadora_dos{
+    @extend .imgseparadora;
     background-image: url(https://th.bing.com/th/id/OIG3.Rp7kHtxrSVPtbUQt24aT?pid=ImgGn);
-    background-attachment: fixed;
-    height: 200px;
 }
 
 .section_diferente{
@@ -39,4 +38,27 @@ section{
     background-color: $layoutColorUno;
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+}
+
+.imgseparadora_tres{
+    @extend .imgseparadora;
+    background-image: url(https://cdn.hsnstore.com/blog/wp-content/uploads/2021/02/planificar-dieta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.imgseparadora_cuatro{
+    @extend .imgseparadora_tres;
+    background-image:url(https://www.escuelaculturismonatural.com/wp-content/uploads/2023/08/frutos-secos-DBC.jpg) ;
+}
+
+.article_resena{
+    background-color: antiquewhite;
+    margin-top: 30px;
+    box-shadow: 0 10px 30px black;
+    border-radius: 5%;
+    max-width: 400px;
+    p{
+        padding: 10px;
+    }
 }

@@ -58,15 +58,13 @@ section {
     font-size: 1.2rem;
     color: #412207; }
 
-.imgseparadora {
+.imgseparadora, .imgseparadora_dos, .imgseparadora_tres, .imgseparadora_cuatro {
   background-image: url(https://th.bing.com/th/id/OIG3.tlfDFQ71.hEtHIdEKcsj?w=1024&h=1024&rs=1&pid=ImgDetMain);
   background-attachment: fixed;
   height: 200px; }
 
 .imgseparadora_dos {
-  background-image: url(https://th.bing.com/th/id/OIG3.Rp7kHtxrSVPtbUQt24aT?pid=ImgGn);
-  background-attachment: fixed;
-  height: 200px; }
+  background-image: url(https://th.bing.com/th/id/OIG3.Rp7kHtxrSVPtbUQt24aT?pid=ImgGn); }
 
 .section_diferente, .section_diferente_dos {
   text-align: start;
@@ -79,6 +77,23 @@ section {
   background-color: #14A5C4;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%; }
+
+.imgseparadora_tres, .imgseparadora_cuatro {
+  background-image: url(https://cdn.hsnstore.com/blog/wp-content/uploads/2021/02/planificar-dieta.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.imgseparadora_cuatro {
+  background-image: url(https://www.escuelaculturismonatural.com/wp-content/uploads/2023/08/frutos-secos-DBC.jpg); }
+
+.article_resena {
+  background-color: antiquewhite;
+  margin-top: 30px;
+  box-shadow: 0 10px 30px black;
+  border-radius: 5%;
+  max-width: 400px; }
+  .article_resena p {
+    padding: 10px; }
 
 .footer {
   display: flex;
@@ -110,7 +125,9 @@ section {
   .galeria_pequena img {
     min-width: 200px;
     max-width: 325px;
-    border-radius: 50px; }
+    border-radius: 50px;
+    box-shadow: 0 10px 30px #F7C226;
+    padding: 10px; }
 
 .productos {
   display: grid;
@@ -186,3 +203,31 @@ nav {
         font-family: "noto sans JP";
         font-weight: 800;
         color: #461A46; }
+
+.contenedor_tarjetas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #14A5C4;
+  border-radius: 50%;
+  box-shadow: 0 30px 50px black; }
+  .contenedor_tarjetas .tarjeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    flex-wrap: nowrap;
+    background-color: #69AC45;
+    border-radius: 50%;
+    box-shadow: 0 30px 50px #F7C226;
+    margin-bottom: 40px;
+    font-weight: 700; }
+  .contenedor_tarjetas .tarjeta_img {
+    border-radius: 20%;
+    width: 500px; }
+  .contenedor_tarjetas .tarjeta_h3 {
+    font-size: 2rem;
+    margin-bottom: 10px; }

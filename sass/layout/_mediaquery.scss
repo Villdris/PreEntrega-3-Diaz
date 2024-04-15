@@ -1,0 +1,80 @@
+@media (max-width: 770px){
+    header{
+        flex-direction: column;
+        background-size: cover;
+        .logo{
+            width: 200px;
+            margin: 10px;
+        }
+        .header_div{
+            margin: 10px;
+            h1{
+                font-size: 3rem;
+            }
+            .eslogan{
+                font-size: 1.5rem;
+            }
+        }
+    }
+    .header_pages{
+        flex-direction: row;
+        .logo{
+            width: 100px;
+        }
+        .header_div{
+            .h1_pages{
+                font-size: 2rem;
+            }
+        }
+    }
+
+
+    nav{
+        ul{
+            flex-direction: row;
+            font-size: 0.7rem;
+        }
+    }
+
+
+
+    .contenedor_tarjetas{
+        .tarjeta{
+            flex-direction: column;
+        }
+        .tarjeta_uno{
+            flex-direction: column-reverse;
+        }
+        .tarjeta_img{
+            max-width: 270px;
+            margin-bottom: 30px;
+        }
+        .tarjeta_h3{
+            font-size: 2rem;
+            margin-bottom: 10px;
+        }
+    }
+
+    section{
+        h2{
+            font-size: 1.9rem;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+}
+
+.contacto_grid{
+    display: block;
+    }
+
+
+
+
+
+
+
+
+
+
+}

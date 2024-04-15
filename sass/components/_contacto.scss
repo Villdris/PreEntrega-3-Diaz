@@ -1,0 +1,44 @@
+.contacto_grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    section{
+        grid-column: 1 / 13;
+    }
+    .formulario{
+        grid-column: 2 / 7;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 15%;
+        border: 5px solid $layoutColorTres;
+        background-color: $layoutColorUno;
+        box-shadow: 0 10px 30px $layoutColorCuatro;
+        .div_input{
+            margin-bottom: 20px;
+            input, button{
+                font-size: 1.3rem;
+                width: 250px;
+                margin-bottom: 10px;
+                border-radius: 15%;
+            }
+            textarea{
+                @extend input;
+                border-radius: 0;
+            }
+        }
+    }  
+    .ubicacion{
+        grid-column: 8 / 13;
+        background-color: $layoutColorCuatro;
+        border: 5px solid $layoutColorTres;
+        box-shadow: 0 10px 30px $layoutColorUno;
+        border-radius: 5%;
+        iframe{
+            justify-content: center;
+            width: 100%;
+            margin: auto;
+            border-radius: 5%;
+        }
+    }
+}
+
+

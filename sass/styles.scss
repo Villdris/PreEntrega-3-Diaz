@@ -2,7 +2,6 @@
 @import "./utilities/variables";
 @import "./utilities/maps";
 @import "./utilities/mixins";
-@import "./utilities/funciones";
 
 
 /* base */
@@ -18,6 +17,13 @@
 
 
 /* components */
-@import"./components/galeria";
+@import "./components/contacto";
+@import "./components/galeria";
 @import "./components/navbar";
 @import "./components/tarjetas";
+
+
+/* Dejare esto aqui, 
+por que me dio muchos problemas para hacer el responsive,
+ ahora ya no :c */
+@import "./layout/mediaquery";

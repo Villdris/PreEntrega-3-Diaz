@@ -15,7 +15,7 @@
         .div_input{
             margin-bottom: 20px;
             input, button{
-                font-size: 1.3rem;
+                font-size: map-get($font-size, m );
                 width: 250px;
                 margin-bottom: 10px;
                 border-radius: 15%;

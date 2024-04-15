@@ -18,12 +18,12 @@ header {
             text-align: center;
                 h1 {
                     font-family: amaranth;
-                    font-size: 5rem;
+                    font-size: map-get($font-size, xxl );
                     color: $fontColorUno;
                 }
                 .eslogan{
                     font-family: "noto sans JP";
-                    font-size: 2rem;
+                    font-size: map-get($font-size , l );
                     color: $fontColorUno;
                 }
         }

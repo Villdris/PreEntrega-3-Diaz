@@ -113,7 +113,10 @@ section {
   .footer .li {
     list-style-type: none;
     min-width: 50px;
-    max-width: 100px; }
+    max-width: 100px;
+    border-radius: 50%; }
+    .footer .li:hover {
+      box-shadow: 0 10px 30px #14A5C4; }
     .footer .li .icon {
       width: 100%; }
 
@@ -134,7 +137,7 @@ section {
     .contacto_grid .formulario .div_input {
       margin-bottom: 20px; }
       .contacto_grid .formulario .div_input input, .contacto_grid .formulario .div_input textarea, .contacto_grid .formulario .div_input button {
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         width: 250px;
         margin-bottom: 10px;
         border-radius: 15%; }
@@ -241,6 +244,14 @@ nav {
         font-family: "noto sans JP";
         font-weight: 800;
         color: #461A46; }
+        nav ul li a:hover {
+          font-size: 1rem;
+          border-top: 3px solid black;
+          border-bottom: 3px solid black; }
+        nav ul li a:active {
+          background-color: #14A5C4;
+          border-top: 5px solid black;
+          border-bottom: 5px solid black; }
 
 .contenedor_tarjetas {
   display: flex;
@@ -285,7 +296,7 @@ por que me dio muchos problemas para hacer el responsive,
       header .header_div h1, .header_pages .header_div h1, .header_pages .header_div .h1_pages {
         font-size: 3rem; }
       header .header_div .eslogan, .header_pages .header_div .eslogan {
-        font-size: 1.5rem; }
+        font-size: 1.4rem; }
   .header_pages {
     flex-direction: row; }
     .header_pages .logo {

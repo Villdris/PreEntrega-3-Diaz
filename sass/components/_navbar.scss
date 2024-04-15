@@ -12,6 +12,16 @@ nav{
                 font-family: "noto sans JP";
                 font-weight: 800;
                 color: $fontColorDos;
+                &:hover{
+                    font-size: 1rem;
+                    border-top: 3px solid black;
+                    border-bottom: 3px solid black;
+                }
+                &:active{
+                    background-color: $layoutColorUno;
+                    border-top: 5px solid black;
+                    border-bottom: 5px solid black;
+                }
             }
         }
     }

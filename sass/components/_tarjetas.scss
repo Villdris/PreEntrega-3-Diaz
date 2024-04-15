@@ -19,7 +19,7 @@
             width: 450px;
         }
         .tarjeta_h3{
-            font-size: 2rem;
+            font-size: map-get($font-size, l );
             margin-bottom: 10px;
             text-decoration: underline;
 }

@@ -1,20 +1,33 @@
-.footer{
-    @include flex (flex, center, center, 80px, nowrap);
-    width: 100%;
-    height: 200px;
+footer{
     background-image: url(https://th.bing.com/th/id/OIG3.ZEYIukjksjjczsUAE_TX?pid=ImgGn);
     background-size: 100%;
-    padding: 20px;
-        .li{
-            list-style-type: none;
-            min-width: 50px;
-            max-width: 100px;
-            border-radius: 50%;
-            &:hover{
-                box-shadow: 0 10px 30px $layoutColorUno;
+    .footer{
+        @include flex (flex, center, center, 80px, nowrap);
+        width: 100%;
+        height: 200px;
+        padding: 20px;
+            .li{
+                list-style-type: none;
+                min-width: 50px;
+                max-width: 100px;
+                border-radius: 50%;
+                &:hover{
+                    box-shadow: 0 10px 30px $layoutColorUno;
+                }
+                .icon{
+                    width: 100%;
+                }
             }
-            .icon{
-                width: 100%;
-            }
-        }
     }
+
+    .autor{
+        text-shadow: 6px 5px 5px $layoutColorUno;
+        color: purple;
+        font-size: map-get($font-size, m );
+        font-weight: 900;
+        &:hover{
+            background-color: $layoutColorUno;
+        }
+}
+
+}

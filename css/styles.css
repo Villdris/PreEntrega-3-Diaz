@@ -99,26 +99,34 @@ section {
   .article_resena p {
     padding: 10px; }
 
-.footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 80px;
-  flex-wrap: nowrap;
-  width: 100%;
-  height: 200px;
+footer {
   background-image: url(https://th.bing.com/th/id/OIG3.ZEYIukjksjjczsUAE_TX?pid=ImgGn);
-  background-size: 100%;
-  padding: 20px; }
-  .footer .li {
-    list-style-type: none;
-    min-width: 50px;
-    max-width: 100px;
-    border-radius: 50%; }
-    .footer .li:hover {
-      box-shadow: 0 10px 30px #14A5C4; }
-    .footer .li .icon {
-      width: 100%; }
+  background-size: 100%; }
+  footer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 200px;
+    padding: 20px; }
+    footer .footer .li {
+      list-style-type: none;
+      min-width: 50px;
+      max-width: 100px;
+      border-radius: 50%; }
+      footer .footer .li:hover {
+        box-shadow: 0 10px 30px #14A5C4; }
+      footer .footer .li .icon {
+        width: 100%; }
+  footer .autor {
+    text-shadow: 6px 5px 5px #14A5C4;
+    color: purple;
+    font-size: 1.4rem;
+    font-weight: 900; }
+    footer .autor:hover {
+      background-color: #14A5C4; }
 
 /* components */
 .contacto_grid {
